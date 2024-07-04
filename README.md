@@ -1,6 +1,6 @@
 **Overview**
 
-This project is a Movie Management System built with Node.js, Express, MongoDB, and JWT for authentication. It allows users to register, log in, and manage a collection of movies with various operations like creating, reading, updating, and deleting movies
+This is a small CRUD project built with Node.js, Express, MongoDB, and JWT for authentication. It allows users to register, log in, and manage a collection of movies with various operations like creating, reading, updating, and deleting movies
 
 **Features**
 
