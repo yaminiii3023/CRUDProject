@@ -33,8 +33,13 @@ This is a small CRUD project built with Node.js, Express, MongoDB, and JWT for a
 **Installation Guide**
 
 	1. Clone the Repository 
-	2. Install Dependencies -- Node.js and npm,MongoDB,express,mongoose,jsonwebtoken,bcryptjs,dotenv,body-parser
-	3. Set Up Environment Variables(.env) --> PORT=8000 >> MONGO_URI=mongodb://localhost:27017/Operation >> JWT_SECRET=Hello_Team_IDS
+	2. install MongoDB
+	>> MongoDB is installed in C:\Program Files\MongoDB\Server\<version>\bin
+	>> search for "Environment Variables", and select "Edit the system environment variables".
+	>> In the Environment Variables window, find the "Path" variable in the "System variables" section and click "Edit".
+	>> Click "New" and add the path to the MongoDB bin directory (e.g., C:\Program Files\MongoDB\Server\<version>\bin).
+	>> Start MongoDB by running the mongod command 
+	3.node and npm properly installed on the machine -> npm install for installing all the project dependencies -> npm start OR node app.js
 	4. Start MongoDB
 	5. Start the Application
 
@@ -50,6 +55,8 @@ Authentication**
  
 	URL: /api/auth/login
 	Method: POST
+   	Token generation ->copy that token -> click on "header" and add "Authorization" as a key and for value write "Bearer paste_token" 
+	**NOTE** for every api testing this above step is must
  
 	3.Movies
  
@@ -77,4 +84,9 @@ Authentication**
 	URL: /api/movie/delete/:id
 	Method: DELETE
    
+   **NOTE**
+   Make sure both MongoDB and server is running when you perform crud operation on postman !! 
+
+   
+
    
